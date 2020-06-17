@@ -1,0 +1,3 @@
+schedule
+apscheduler
+python-dotenv

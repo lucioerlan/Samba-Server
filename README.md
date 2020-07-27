@@ -7,31 +7,31 @@
 <img src="https://user-images.githubusercontent.com/47280551/72212480-e09aee00-34bb-11ea-95c9-21388468c9f9.jpg">
 </p>
 
-## Instalação
+## Installation
 ```sh
 $root@usuario: ./install_samba.sh
 ```
 <br><br>
 
-**Crie um diretório na pasta /home/ chamado "teste"** 
+**Create a directory in the / home / folder called "test"** 
 ```sh
 $root@usuario: mkdir teste
 ```
 <br><br>
 
 
-**Permissão da pasta.**
+**Folder permission.**
 ```sh
 $root@usuario: chmod -R 777 /home/caminho/teste
 ```
  
 
-Obs: **777** vai ser para diretórios públicos na rede. Ou seja todos irão ter permissão.
-Para saber mais sobre chmod acesse: https://e-tinet.com/linux/chmod
+Obs: **777** going to be for public directories on the network. In other words, everyone will have permission.
+To learn more about chmod visit: https://e-tinet.com/linux/chmod
 <br><br>
 
 
-**Criando grupo**
+**Creating group**
 ```sh
 $root@usuario: addgroup nome_grupo
 ```
@@ -39,14 +39,14 @@ $root@usuario: addgroup nome_grupo
 
 
 
-**Criando Usuário no sistema.**
+**Creating User in the system.**
 ```sh
 $root@usuario: adduser -a fulano
 ```
 <br><br>
 
 
-**Criando uma senha do mesmo usuário no Samba.** 
+**Creating a password for the same user in Samba.** 
 ```sh
 $root@usuario: smbpasswd -a fulano
 ```
@@ -54,7 +54,7 @@ $root@usuario: smbpasswd -a fulano
 
 
 
-**Veja se o Usuário foi criado.**
+**See if the User has been created.**
 ```sh
 $root@usuario: pdbedit -L -v  
 ```
@@ -63,7 +63,7 @@ $root@usuario: pdbedit -L -v
 
 
 
-**Definindo Usuário no grupo**
+**Defining User in the group**
 ```sh
 $root@usuario: adduser nome_user nome_grupo
 ```
@@ -71,7 +71,7 @@ $root@usuario: adduser nome_user nome_grupo
 
 
 
-**chown permite a usuários regulares alterar grupos**
+**chown allows regular users to change groups**
 ```sh
 $root@usuario: chown nome_grupo /home/teste
 ```
@@ -82,16 +82,16 @@ $root@usuario: chown nome_grupo /home/teste
 
 
 
-### Configuração do arquivo /etc/samba/smb.conf
+### File configuration /etc/samba/smb.conf
 ![gnu](https://user-images.githubusercontent.com/47280551/72212315-687ef900-34b8-11ea-881f-e114f9d950f5.jpg)
 <br><br>
 
 
-**Consideraçoes Finais**
+**Final considerations**
 
-Eu fiz esse projeto, com o objetivo de ajudar o meu irmão.
+I did this project, with the aim of helping my brother.
 <br><br>
 
-### 🔓 Licença 
-MIT © [Erlan Lúcio](https://br.linkedin.com/in/erlan-lucio-760745183)
+### 🔓 License
+MIT © [Erlan Lúcio](https://www.linkedin.com/in/erlanlucio/)
 <br><br> 

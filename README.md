@@ -1,8 +1,8 @@
-<p align="center">  
-    Server Samba AND Python Copy 🐧   
-    </p>
+[![LICENSE](https://img.shields.io/github/license/arshadkazmi42/awesome-github-init.svg)](https://github.com/arshadkazmi42/awesome-github-init/LICENSE)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flucioerlan%2FSamba-Server&count_bg=%23E71A18&title_bg=%23555555&icon=dependabot.svg&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<p align="center">
+<p align="center">   Server Samba AND Python Copy 🐧   
+
 
 <img src="https://user-images.githubusercontent.com/47280551/72212480-e09aee00-34bb-11ea-95c9-21388468c9f9.jpg">
 </p>

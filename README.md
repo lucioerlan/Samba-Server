@@ -27,7 +27,7 @@
 
 <!-- INSTALLATION -->
 
-# 🔨 Installation Samba
+## 🔨 Installation Samba
 
 ```sh
 $ install_samba.sh
@@ -39,7 +39,7 @@ $ install_samba.sh
 <!-- CONFIGURATION -->
 
 
-# ⚙️ Configuration
+## ⚙️ Configuration
 
 </br>
 
@@ -130,7 +130,7 @@ I did this project, with the aim of helping my brother.
 
 <!-- LICENSE -->
 
-# 🔓 License
+## 🔓 License
 
 This project lives under MIT License. See LICENSE for more details. ©2019 - [Erlan Lucio](https://www.linkedin.com/in/erlanlucio/)
 

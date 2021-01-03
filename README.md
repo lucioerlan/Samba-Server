@@ -33,7 +33,6 @@
 $ install_samba.sh
 ```
 <br />
-<br />
 
 
 <!-- CONFIGURATION -->
